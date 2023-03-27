@@ -44,7 +44,7 @@ function createBoxes(amount) {
     let widht = 30;
     let height = 30;
     for (i = 0; i < Number(amount); i += 1) {
-        let element = `<div widh = ${widht}px, height = ${height}px, backgroundColor = ${getRandomHexColor()} ></div>`;
+        let element = `<div width= ${widht}px height= ${height}px background-color = ${getRandomHexColor()}>3333</div>`;
         console.log(element);
         widht += 10;
         height += 10;
@@ -60,6 +60,7 @@ return box.join('')
 //     let widht = 30;
 //     let height = 30;
 //     for (i = 0; i < Number(input.value); i += 1) {
+
 //         let element = `<div widh = "${widht}px" height = ${height}px backgroundColor = ${getRandomHexColor()} ></div`;
 //         console.log(element);
 //         widht += 10;
